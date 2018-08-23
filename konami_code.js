@@ -19,8 +19,8 @@ document.body.addEventListener('keydown', function onKeyDownHandler(e) {
     console.log(index);
     console.log(key);
     if (index === codes.length) {
-      window.alert("Konami Code Achieved");
-        index = 0;
+      window.alert("Konami Code Activated");
+      index = 0;
     }
   } else {
     index = 0;
